@@ -58,4 +58,17 @@ func main() {
 		fmt.Println("is adult")
 	}
 
+	fmt.Println(addMultipleIntegers(1, 2))
+	fmt.Println(addMultipleIntegers(1, 2, 3, 4))
+
+}
+
+// variadic functions
+
+func addMultipleIntegers(n ...int) int {
+	sum := 0
+	for _, val := range n {
+		sum += val
+	}
+	return sum
 }
