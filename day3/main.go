@@ -35,4 +35,27 @@ func main() {
 	fmt.Println(rohitkaundal)
 	fmt.Println("Is Adult", rohitkaundal.IsAdult())
 
+	// Pointers
+
+	year := 50
+	ptrYear := &year
+
+	fmt.Println(year, *ptrYear)
+
+	// Switch example
+
+	switch {
+	case monika.Age < rohitkaundal.Age:
+		fmt.Println("Younger then Rohit K")
+	case monika.Age < 18:
+		fmt.Println("Minor")
+	}
+
+	switch i := monika.Age; i {
+	case 32:
+		fmt.Println("her age is 34")
+	case 18:
+		fmt.Println("is adult")
+	}
+
 }
