@@ -1,0 +1,8 @@
+
+Epic Stroy : We want to create a app for task management of a user
+- User Stories:
+    - Story 1: As a User I want to Create a Task
+      - Ticket 1: Ceate all Models (Done)
+      - Ticket 2: Write a service for this story which enables User to Create a Task
+    - Story 2: As a User I should be able to View AllTasks
+

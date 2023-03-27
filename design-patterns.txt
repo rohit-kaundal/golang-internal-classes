@@ -1,0 +1,9 @@
+
+
+
+MVC : main -> handlers -> models -> repository -> db
+                          (Core logic)
+DDD:  main -> handlers(req, res structs) -> Services <- models/domains
+                                           (Core Logic)         -> repositry -> DBs
+
+
